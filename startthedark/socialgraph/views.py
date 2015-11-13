@@ -7,8 +7,6 @@ from socialgraph.util import get_mutual_followers
 from socialgraph.models import UserLink
 from django.template import RequestContext
 
-# Create your views here.
-
 friend_function_map = {
 	'followers': get_people_user_follows,
 	'following': get_people_following_user,
